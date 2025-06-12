@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Veo 3 Prompt Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Veo 3 Prompt Generator</h1>
+    <form id="prompt-form">
+      <!-- Input fields will go here -->
+    </form>
+    <div id="output">
+      <h2>Hasil Prompt</h2>
+      <textarea id="output-id" placeholder="Bahasa Indonesia (editable)"></textarea>
+      <textarea id="output-en" readonly placeholder="English (final)"></textarea>
+    </div>
+    <div class="actions">
+      <button type="button" onclick="generatePrompt()">Generate</button>
+      <button type="reset">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
