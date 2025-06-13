@@ -1,3 +1,3 @@
-# Veo3 Prompt Generator
+# Postmanit Prompt Generator
 
-Token system with Ad support.
+Ini adalah file final dari aplikasi Prompt Generator dengan sistem token harian dan iklan.
